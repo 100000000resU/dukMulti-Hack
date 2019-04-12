@@ -1,0 +1,22 @@
+﻿  main.cpp
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\main.cpp(274): warning C4244: 'initializing': conversion from 'DWORD' to 'BYTE', possible loss of data
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.h(22): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\main.cpp(71): note: see reference to function template instantiation 'vData MemoryReader::ReadMemory<int>(DWORD)' being compiled
+          with
+          [
+              vData=int
+          ]
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.h(29): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\main.cpp(218): note: see reference to function template instantiation 'void MemoryReader::WriteMemory<Vector3>(DWORD,vData)' being compiled
+          with
+          [
+              vData=Vector3
+          ]
+  MemoryReader.cpp
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.cpp(20): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.cpp(20): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.cpp(40): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.cpp(40): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.cpp(43): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+c:\users\никита\documents\visual studio 2015\projects\dukmulti\dukmulti\memoryreader.cpp(43): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+  Generating Code...

@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  main.cpp
+c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\main.cpp(113): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'const char [33]' to 'LPCWSTR'
+  c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\main.cpp(113): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\main.cpp(119): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'const char [33]' to 'LPCWSTR'
+  c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\main.cpp(119): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\main.cpp(565): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  MemoryReader.cpp
+c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\memoryreader.cpp(20): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\memoryreader.cpp(20): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\memoryreader.cpp(40): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  c:\users\natem\desktop\updating old as fuck cheats\dukmulti\dukmulti\memoryreader.cpp(40): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  SettingsReader.cpp
+  Vector3.cpp
